@@ -1,0 +1,35 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Daily Metabolomics Research"
+theme = "hugo-xmag"
+googleAnalytics = "UA-74383918-1"
+disqusShortname = "yufree"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+paginate = 9
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "News/Blog aggregator website for Metabolomcis"
+    summary_length = 300
+    github_edit = "https://github.com/yufree/metaRSS/edit/master/content/"
+    footer = "&copy; [Miao YU](https://yufree.cn) 2018 | [Github](https://github.com/yufree) | [Twitter](https://twitter.com/yu_free)"
+
+[params.text]
+    back = "&larr; Back to Home"
+    edit = "Edit this page &rarr;"
+    truncated = "&hellip;"

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1531326820580.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1592290069",
+    "id" : "1111F6C3",
+    "lastKnownWriteTime" : 1531336163,
+    "last_content_update" : 1531336163304,
+    "path" : "~/blog/metaRSS/R/fetch.R",
+    "project_path" : "R/fetch.R",
+    "properties" : {
+        "cursorPosition" : "14,37",
+        "scrollLine" : "11"
+    },
+    "relative_order" : 7,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}
