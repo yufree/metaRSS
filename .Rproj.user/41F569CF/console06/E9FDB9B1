@@ -1,3 +1,436 @@
 ]0;~/blog/metaRSS[?1034hyumiaodeMacBook-Pro:metaRSS yufree$ git add[K[K[Kinit
 Initialized empty Git repository in /Users/yufree/blog/metaRSS/.git/
 ]0;~/blog/metaRSSyumiaodeMacBook-Pro:metaRSS yufree$ git add[Kd .
+]0;~/blog/metaRSSyumiaodeMacBook-Pro:metaRSS yufree$ git commit -m ''p'l'a'n' 't'o' 'g' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co''
+[master (root-commit) 26370b8] plan to go
+ 417 files changed, 5399 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/41F569CF/console06/E9FDB9B1
+ create mode 100644 .Rproj.user/41F569CF/console06/E9FDB9B1.env
+ create mode 100644 .Rproj.user/41F569CF/console06/INDEX001
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/1338BE6E
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/2ED1BC8
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/4273ED8B
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/6407978E
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/8BD3DF26
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/A0ED732
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/ADE6BF51
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/E7935B76
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/EE9EDC62
+ create mode 100644 .Rproj.user/41F569CF/sources/prop/INDEX
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/1111F6C3
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/1111F6C3-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/1F751D65
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/1F751D65-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/24CF2FF8-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/3E817FFA
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/3E817FFA-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/43CE09F7
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/43CE09F7-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/5807314E
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/5807314E-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/9D2BBA78
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/9D2BBA78-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/A6F107C2
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/A6F107C2-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/B42C7F86
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/B42C7F86-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/CA2EE97B
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/CA2EE97B-contents
+ create mode 100644 .Rproj.user/41F569CF/sources/s-6A46B15C/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 DESCRIPTION
+ create mode 100644 R/fetch.R
+ create mode 100644 R/list.txt
+ create mode 100644 config.toml
+ create mode 100644 content/_index.md
+ create mode 100644 content/about.md
+ create mode 100644 content/post/2018-02-02-1.md
+ create mode 100644 content/post/2018-02-02-2.md
+ create mode 100644 content/post/2018-02-02-3.md
+ create mode 100644 content/post/2018-02-02-4.md
+ create mode 100644 content/post/2018-02-02-5.md
+ create mode 100644 content/post/2018-02-03-1.md
+ create mode 100644 content/post/2018-02-03-2.md
+ create mode 100644 content/post/2018-02-05-1.md
+ create mode 100644 content/post/2018-02-05-10.md
+ create mode 100644 content/post/2018-02-05-11.md
+ create mode 100644 content/post/2018-02-05-12.md
+ create mode 100644 content/post/2018-02-05-2.md
+ create mode 100644 content/post/2018-02-05-3.md
+ create mode 100644 content/post/2018-02-05-4.md
+ create mode 100644 content/post/2018-02-05-5.md
+ create mode 100644 content/post/2018-02-05-6.md
+ create mode 100644 content/post/2018-02-05-7.md
+ create mode 100644 content/post/2018-02-05-8.md
+ create mode 100644 content/post/2018-02-05-9.md
+ create mode 100644 content/post/2018-02-06-1.md
+ create mode 100644 content/post/2018-02-06-2.md
+ create mode 100644 content/post/2018-02-06-3.md
+ create mode 100644 content/post/2018-02-07-1.md
+ create mode 100644 content/post/2018-02-07-2.md
+ create mode 100644 content/post/2018-02-07-3.md
+ create mode 100644 content/post/2018-02-07-4.md
+ create mode 100644 content/post/2018-02-07-5.md
+ create mode 100644 content/post/2018-02-07-6.md
+ create mode 100644 content/post/2018-02-08-1.md
+ create mode 100644 content/post/2018-02-08-2.md
+ create mode 100644 content/post/2018-02-08-3.md
+ create mode 100644 content/post/2018-02-08-4.md
+ create mode 100644 content/post/2018-02-08-5.md
+ create mode 100644 content/post/2018-02-08-6.md
+ create mode 100644 content/post/2018-02-08-7.md
+ create mode 100644 content/post/2018-02-08-8.md
+ create mode 100644 content/post/2018-02-08-9.md
+ create mode 100644 content/post/2018-02-09-1.md
+ create mode 100644 content/post/2018-02-09-2.md
+ create mode 100644 content/post/2018-02-09-3.md
+ create mode 100644 content/post/2018-02-09-4.md
+ create mode 100644 content/post/2018-02-09-5.md
+ create mode 100644 content/post/2018-02-09-6.md
+ create mode 100644 content/post/2018-02-09-7.md
+ create mode 100644 content/post/2018-02-09-8.md
+ create mode 100644 content/post/2018-02-09-9.md
+ create mode 100644 content/post/2018-02-12-1.md
+ create mode 100644 content/post/2018-02-12-10.md
+ create mode 100644 content/post/2018-02-12-11.md
+ create mode 100644 content/post/2018-02-12-12.md
+ create mode 100644 content/post/2018-02-12-2.md
+ create mode 100644 content/post/2018-02-12-3.md
+ create mode 100644 content/post/2018-02-12-4.md
+ create mode 100644 content/post/2018-02-12-5.md
+ create mode 100644 content/post/2018-02-12-6.md
+ create mode 100644 content/post/2018-02-12-7.md
+ create mode 100644 content/post/2018-02-12-8.md
+ create mode 100644 content/post/2018-02-12-9.md
+ create mode 100644 content/post/2018-02-13-1.md
+ create mode 100644 content/post/2018-02-13-10.md
+ create mode 100644 content/post/2018-02-13-11.md
+ create mode 100644 content/post/2018-02-13-12.md
+ create mode 100644 content/post/2018-02-13-13.md
+ create mode 100644 content/post/2018-02-13-2.md
+ create mode 100644 content/post/2018-02-13-3.md
+ create mode 100644 content/post/2018-02-13-4.md
+ create mode 100644 content/post/2018-02-13-5.md
+ create mode 100644 content/post/2018-02-13-6.md
+ create mode 100644 content/post/2018-02-13-7.md
+ create mode 100644 content/post/2018-02-13-8.md
+ create mode 100644 content/post/2018-02-13-9.md
+ create mode 100644 content/post/2018-02-14-1.md
+ create mode 100644 content/post/2018-02-14-2.md
+ create mode 100644 content/post/2018-02-14-3.md
+ create mode 100644 content/post/2018-02-14-4.md
+ create mode 100644 content/post/2018-02-14-5.md
+ create mode 100644 content/post/2018-02-14-6.md
+ create mode 100644 content/post/2018-02-15-1.md
+ create mode 100644 content/post/2018-02-15-10.md
+ create mode 100644 content/post/2018-02-15-2.md
+ create mode 100644 content/post/2018-02-15-3.md
+ create mode 100644 content/post/2018-02-15-4.md
+ create mode 100644 content/post/2018-02-15-5.md
+ create mode 100644 content/post/2018-02-15-6.md
+ create mode 100644 content/post/2018-02-15-7.md
+ create mode 100644 content/post/2018-02-15-8.md
+ create mode 100644 content/post/2018-02-15-9.md
+ create mode 100644 content/post/2018-02-16-1.md
+ create mode 100644 content/post/2018-02-16-2.md
+ create mode 100644 content/post/2018-02-16-3.md
+ create mode 100644 content/post/2018-02-19-1.md
+ create mode 100644 content/post/2018-02-19-2.md
+ create mode 100644 content/post/2018-02-19-3.md
+ create mode 100644 content/post/2018-02-19-4.md
+ create mode 100644 content/post/2018-02-20-1.md
+ create mode 100644 content/post/2018-02-20-2.md
+ create mode 100644 content/post/2018-02-20-3.md
+ create mode 100644 content/post/2018-02-20-4.md
+ create mode 100644 content/post/2018-02-20-5.md
+ create mode 100644 content/post/2018-02-20-6.md
+ create mode 100644 content/post/2018-02-21-1.md
+ create mode 100644 content/post/2018-02-21-2.md
+ create mode 100644 content/post/2018-02-21-3.md
+ create mode 100644 content/post/2018-02-21-4.md
+ create mode 100644 content/post/2018-02-21-5.md
+ create mode 100644 content/post/2018-02-21-6.md
+ create mode 100644 content/post/2018-02-21-7.md
+ create mode 100644 content/post/2018-02-22-1.md
+ create mode 100644 content/post/2018-02-22-2.md
+ create mode 100644 content/post/2018-02-22-3.md
+ create mode 100644 content/post/2018-02-22-4.md
+ create mode 100644 content/post/2018-02-22-5.md
+ create mode 100644 content/post/2018-02-22-6.md
+ create mode 100644 content/post/2018-02-23-1.md
+ create mode 100644 content/post/2018-02-23-2.md
+ create mode 100644 content/post/2018-02-23-3.md
+ create mode 100644 content/post/2018-02-26-1.md
+ create mode 100644 content/post/2018-02-26-2.md
+ create mode 100644 content/post/2018-02-26-3.md
+ create mode 100644 content/post/2018-02-26-4.md
+ create mode 100644 content/post/2018-02-26-5.md
+ create mode 100644 content/post/2018-02-26-6.md
+ create mode 100644 content/post/2018-02-27-1.md
+ create mode 100644 content/post/2018-02-27-2.md
+ create mode 100644 content/post/2018-02-27-3.md
+ create mode 100644 content/post/2018-02-28-1.md
+ create mode 100644 content/post/2018-02-28-2.md
+ create mode 100644 content/post/2018-02-28-3.md
+ create mode 100644 content/post/2018-02-28-4.md
+ create mode 100644 content/post/2018-03-01-1.md
+ create mode 100644 content/post/2018-03-01-2.md
+ create mode 100644 content/post/2018-03-01-3.md
+ create mode 100644 content/post/2018-03-01-4.md
+ create mode 100644 content/post/2018-03-01-5.md
+ create mode 100644 content/post/2018-03-02-1.md
+ create mode 100644 content/post/2018-03-05-1.md
+ create mode 100644 content/post/2018-03-05-2.md
+ create mode 100644 content/post/2018-03-05-3.md
+ create mode 100644 content/post/2018-03-05-4.md
+ create mode 100644 content/post/2018-03-06-1.md
+ create mode 100644 content/post/2018-03-06-2.md
+ create mode 100644 content/post/2018-03-06-3.md
+ create mode 100644 content/post/2018-03-07-1.md
+ create mode 100644 content/post/2018-03-07-2.md
+ create mode 100644 content/post/2018-03-07-3.md
+ create mode 100644 content/post/2018-03-07-4.md
+ create mode 100644 content/post/2018-03-08-1.md
+ create mode 100644 content/post/2018-03-08-2.md
+ create mode 100644 content/post/2018-03-08-3.md
+ create mode 100644 content/post/2018-03-08-4.md
+ create mode 100644 content/post/2018-03-08-5.md
+ create mode 100644 content/post/2018-03-08-6.md
+ create mode 100644 content/post/2018-03-08-7.md
+ create mode 100644 content/post/2018-03-09-1.md
+ create mode 100644 content/post/2018-03-09-2.md
+ create mode 100644 content/post/2018-03-09-3.md
+ create mode 100644 content/post/2018-03-09-4.md
+ create mode 100644 content/post/2018-03-09-5.md
+ create mode 100644 content/post/2018-03-09-6.md
+ create mode 100644 content/post/2018-03-09-7.md
+ create mode 100644 content/post/2018-03-09-8.md
+ create mode 100644 content/post/2018-03-12-1.md
+ create mode 100644 content/post/2018-03-12-2.md
+ create mode 100644 content/post/2018-03-12-3.md
+ create mode 100644 content/post/2018-03-13-1.md
+ create mode 100644 content/post/2018-03-13-2.md
+ create mode 100644 content/post/2018-03-13-3.md
+ create mode 100644 content/post/2018-03-13-4.md
+ create mode 100644 content/post/2018-03-13-5.md
+ create mode 100644 content/post/2018-03-13-6.md
+ create mode 100644 content/post/2018-03-14-1.md
+ create mode 100644 content/post/2018-03-14-10.md
+ create mode 100644 content/post/2018-03-14-2.md
+ create mode 100644 content/post/2018-03-14-3.md
+ create mode 100644 content/post/2018-03-14-4.md
+ create mode 100644 content/post/2018-03-14-5.md
+ create mode 100644 content/post/2018-03-14-6.md
+ create mode 100644 content/post/2018-03-14-7.md
+ create mode 100644 content/post/2018-03-14-8.md
+ create mode 100644 content/post/2018-03-14-9.md
+ create mode 100644 content/post/2018-03-15-1.md
+ create mode 100644 content/post/2018-03-15-2.md
+ create mode 100644 content/post/2018-03-15-3.md
+ create mode 100644 content/post/2018-03-15-4.md
+ create mode 100644 content/post/2018-03-15-5.md
+ create mode 100644 content/post/2018-03-15-6.md
+ create mode 100644 content/post/2018-03-16-1.md
+ create mode 100644 content/post/2018-03-16-2.md
+ create mode 100644 content/post/2018-03-16-3.md
+ create mode 100644 content/post/2018-03-16-4.md
+ create mode 100644 content/post/2018-03-19-1.md
+ create mode 100644 content/post/2018-03-19-2.md
+ create mode 100644 content/post/2018-03-19-3.md
+ create mode 100644 content/post/2018-03-19-4.md
+ create mode 100644 content/post/2018-03-19-5.md
+ create mode 100644 content/post/2018-03-20-1.md
+ create mode 100644 content/post/2018-03-20-2.md
+ create mode 100644 content/post/2018-03-20-3.md
+ create mode 100644 content/post/2018-03-21-1.md
+ create mode 100644 content/post/2018-03-21-2.md
+ create mode 100644 content/post/2018-03-21-3.md
+ create mode 100644 content/post/2018-03-21-4.md
+ create mode 100644 content/post/2018-03-21-5.md
+ create mode 100644 content/post/2018-03-21-6.md
+ create mode 100644 content/post/2018-03-21-7.md
+ create mode 100644 content/post/2018-03-21-8.md
+ create mode 100644 content/post/2018-03-22-1.md
+ create mode 100644 content/post/2018-03-22-2.md
+ create mode 100644 content/post/2018-03-22-3.md
+ create mode 100644 content/post/2018-03-22-4.md
+ create mode 100644 content/post/2018-03-22-5.md
+ create mode 100644 content/post/2018-03-22-6.md
+ create mode 100644 content/post/2018-03-23-1.md
+ create mode 100644 content/post/2018-03-23-2.md
+ create mode 100644 content/post/2018-03-23-3.md
+ create mode 100644 content/post/2018-03-23-4.md
+ create mode 100644 content/post/2018-03-26-1.md
+ create mode 100644 content/post/2018-03-26-2.md
+ create mode 100644 content/post/2018-03-26-3.md
+ create mode 100644 content/post/2018-03-26-4.md
+ create mode 100644 content/post/2018-03-26-5.md
+ create mode 100644 content/post/2018-03-26-6.md
+ create mode 100644 content/post/2018-03-27-1.md
+ create mode 100644 content/post/2018-03-27-2.md
+ create mode 100644 content/post/2018-03-27-3.md
+ create mode 100644 content/post/2018-03-27-4.md
+ create mode 100644 content/post/2018-03-28-1.md
+ create mode 100644 content/post/2018-03-28-2.md
+ create mode 100644 content/post/2018-03-28-3.md
+ create mode 100644 content/post/2018-03-28-4.md
+ create mode 100644 content/post/2018-03-28-5.md
+ create mode 100644 content/post/2018-03-28-6.md
+ create mode 100644 content/post/2018-03-28-7.md
+ create mode 100644 content/post/2018-03-29-1.md
+ create mode 100644 content/post/2018-03-29-2.md
+ create mode 100644 content/post/2018-03-31-1.md
+ create mode 100644 content/post/2018-03-31-2.md
+ create mode 100644 content/post/2018-03-31-3.md
+ create mode 100644 content/post/2018-03-31-4.md
+ create mode 100644 content/post/2018-04-03-1.md
+ create mode 100644 content/post/2018-04-03-2.md
+ create mode 100644 content/post/2018-04-03-3.md
+ create mode 100644 content/post/2018-04-03-4.md
+ create mode 100644 content/post/2018-04-03-5.md
+ create mode 100644 content/post/2018-04-03-6.md
+ create mode 100644 content/post/2018-04-04-1.md
+ create mode 100644 content/post/2018-04-04-2.md
+ create mode 100644 content/post/2018-04-04-3.md
+ create mode 100644 content/post/2018-04-04-4.md
+ create mode 100644 content/post/2018-04-04-5.md
+ create mode 100644 content/post/2018-04-04-6.md
+ create mode 100644 content/post/2018-04-04-7.md
+ create mode 100644 content/post/2018-04-04-8.md
+ create mode 100644 content/post/2018-04-04-9.md
+ create mode 100644 content/post/2018-04-05-1.md
+ create mode 100644 content/post/2018-04-05-2.md
+ create mode 100644 content/post/2018-04-05-3.md
+ create mode 100644 content/post/2018-04-05-4.md
+ create mode 100644 content/post/2018-04-05-5.md
+ create mode 100644 content/post/2018-04-05-6.md
+ create mode 100644 content/post/2018-04-06-1.md
+ create mode 100644 content/post/2018-04-06-10.md
+ create mode 100644 content/post/2018-04-06-11.md
+ create mode 100644 content/post/2018-04-06-2.md
+ create mode 100644 content/post/2018-04-06-3.md
+ create mode 100644 content/post/2018-04-06-4.md
+ create mode 100644 content/post/2018-04-06-5.md
+ create mode 100644 content/post/2018-04-06-6.md
+ create mode 100644 content/post/2018-04-06-7.md
+ create mode 100644 content/post/2018-04-06-8.md
+ create mode 100644 content/post/2018-04-06-9.md
+ create mode 100644 content/post/2018-04-09-1.md
+ create mode 100644 content/post/2018-04-09-10.md
+ create mode 100644 content/post/2018-04-09-11.md
+ create mode 100644 content/post/2018-04-09-12.md
+ create mode 100644 content/post/2018-04-09-2.md
+ create mode 100644 content/post/2018-04-09-3.md
+ create mode 100644 content/post/2018-04-09-4.md
+ create mode 100644 content/post/2018-04-09-5.md
+ create mode 100644 content/post/2018-04-09-6.md
+ create mode 100644 content/post/2018-04-09-7.md
+ create mode 100644 content/post/2018-04-09-8.md
+ create mode 100644 content/post/2018-04-09-9.md
+ create mode 100644 content/post/2018-04-10-1.md
+ create mode 100644 content/post/2018-04-10-2.md
+ create mode 100644 content/post/2018-04-10-3.md
+ create mode 100644 content/post/2018-04-10-4.md
+ create mode 100644 content/post/2018-04-10-5.md
+ create mode 100644 content/post/2018-04-10-6.md
+ create mode 100644 content/post/2018-04-11-1.md
+ create mode 100644 content/post/2018-04-11-2.md
+ create mode 100644 content/post/2018-04-11-3.md
+ create mode 100644 content/post/2018-04-11-4.md
+ create mode 100644 content/post/2018-04-11-5.md
+ create mode 100644 content/post/2018-04-11-6.md
+ create mode 100644 content/post/2018-04-11-7.md
+ create mode 100644 content/post/2018-04-11-8.md
+ create mode 100644 content/post/2018-04-12-1.md
+ create mode 100644 content/post/2018-04-12-2.md
+ create mode 100644 content/post/2018-04-12-3.md
+ create mode 100644 content/post/2018-04-12-4.md
+ create mode 100644 content/post/2018-04-12-5.md
+ create mode 100644 content/post/2018-04-12-6.md
+ create mode 100644 content/post/2018-04-12-7.md
+ create mode 100644 content/post/2018-04-12-8.md
+ create mode 100644 content/post/2018-04-13-1.md
+ create mode 100644 content/post/2018-04-13-2.md
+ create mode 100644 content/post/2018-04-13-3.md
+ create mode 100644 content/post/2018-04-13-4.md
+ create mode 100644 content/post/2018-04-15-1.md
+ create mode 100644 content/post/2018-04-16-1.md
+ create mode 100644 content/post/2018-04-16-2.md
+ create mode 100644 content/post/2018-04-16-3.md
+ create mode 100644 content/post/2018-04-16-4.md
+ create mode 100644 content/post/2018-04-16-5.md
+ create mode 100644 content/post/2018-04-16-6.md
+ create mode 100644 content/post/2018-04-16-7.md
+ create mode 100644 content/post/2018-04-16-8.md
+ create mode 100644 content/post/2018-04-16-9.md
+ create mode 100644 content/post/2018-04-17-1.md
+ create mode 100644 content/post/2018-04-17-2.md
+ create mode 100644 content/post/2018-04-17-3.md
+ create mode 100644 content/post/2018-04-17-4.md
+ create mode 100644 content/post/2018-04-17-5.md
+ create mode 100644 content/post/2018-04-17-6.md
+ create mode 100644 content/post/2018-04-18-1.md
+ create mode 100644 content/post/2018-04-18-2.md
+ create mode 100644 content/post/2018-04-18-3.md
+ create mode 100644 content/post/2018-04-19-1.md
+ create mode 100644 content/post/2018-04-19-2.md
+ create mode 100644 content/post/2018-04-19-3.md
+ create mode 100644 content/post/2018-04-19-4.md
+ create mode 100644 content/post/2018-04-20-1.md
+ create mode 100644 content/post/2018-04-20-2.md
+ create mode 100644 content/post/2018-04-20-3.md
+ create mode 100644 data/authors.yaml
+ create mode 100644 index.Rmd
+ create mode 100644 metaRSS.Rproj
+ create mode 100644 themes/hugo-xmag/.gitignore
+ create mode 100644 themes/hugo-xmag/LICENSE.md
+ create mode 100644 themes/hugo-xmag/README.md
+ create mode 100644 themes/hugo-xmag/archetypes/default.md
+ create mode 100644 themes/hugo-xmag/exampleSite/config.toml
+ create mode 100644 themes/hugo-xmag/exampleSite/content/_index.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/about.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2015-07-23-lorem-ipsum.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2015-07-23-lorem-ipsum2.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2015-07-23-lorem-ipsum3.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2015-07-23-lorem-ipsum4.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2015-07-23-lorem-ipsum5.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2015-07-23-lorem-ipsum6.md
+ create mode 100644 themes/hugo-xmag/exampleSite/content/post/2017-02-14-hello-markdown.md
+ create mode 100644 themes/hugo-xmag/exampleSite/data/authors.yaml
+ create mode 100644 themes/hugo-xmag/hugo-xmag.Rproj
+ create mode 100644 themes/hugo-xmag/images/screenshot.png
+ create mode 100644 themes/hugo-xmag/images/tn.png
+ create mode 100644 themes/hugo-xmag/layouts/404.html
+ create mode 100644 themes/hugo-xmag/layouts/_default/list.html
+ create mode 100644 themes/hugo-xmag/layouts/_default/single.html
+ create mode 100644 themes/hugo-xmag/layouts/_default/terms.html
+ create mode 100644 themes/hugo-xmag/layouts/index.xml
+ create mode 100644 themes/hugo-xmag/layouts/partials/author.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/author_names.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/banner.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/comments.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/foot_custom.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/footer.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/head_custom.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/header.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/info.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/meta.html
+ create mode 100644 themes/hugo-xmag/layouts/partials/prev_next.html
+ create mode 100644 themes/hugo-xmag/static/css/fonts.css
+ create mode 100644 themes/hugo-xmag/static/css/style.css
+ create mode 100644 themes/hugo-xmag/theme.toml
+]0;~/blog/metaRSSyumiaodeMacBook-Pro:metaRSS yufree$ git remote add orgina[K[K[K[Kigin htt ps://github.com/yufree/metaRSS.git
+]0;~/blog/metaRSSyumiaodeMacBook-Pro:metaRSS yufree$ git push -u pro[K[K[Korigin master [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kr
+Counting objects: 421, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/408)   Compressing objects:   1% (5/408)   Compressing objects:   2% (9/408)   Compressing objects:   3% (13/408)   Compressing objects:   4% (17/408)   Compressing objects:   5% (21/408)   Compressing objects:   6% (25/408)   Compressing objects:   7% (29/408)   Compressing objects:   8% (33/408)   Compressing objects:   9% (37/408)   Compressing objects:  10% (41/408)   Compressing objects:  11% (45/408)   Compressing objects:  12% (49/408)   Compressing objects:  13% (54/408)   Compressing objects:  14% (58/408)   Compressing objects:  15% (62/408)   Compressing objects:  16% (66/408)   Compressing objects:  17% (70/408)   Compressing objects:  18% (74/408)   Compressing objects:  19% (78/408)   Compressing objects:  20% (82/408)   Compressing objects:  21% (86/408)   Compressing objects:  22% (90/408)   Compressing objects:  23% (94/408)   Compressing objects:  24% (98/408)   Compressing objects:  25% (102/408)   Compressing objects:  26% (107/408)   Compressing objects:  27% (111/408)   Compressing objects:  28% (115/408)   Compressing objects:  29% (119/408)   Compressing objects:  30% (123/408)   Compressing objects:  31% (127/408)   Compressing objects:  32% (131/408)   Compressing objects:  33% (135/408)   Compressing objects:  34% (139/408)   Compressing objects:  35% (143/408)   Compressing objects:  36% (147/408)   Compressing objects:  37% (151/408)   Compressing objects:  38% (156/408)   Compressing objects:  39% (160/408)   Compressing objects:  40% (164/408)   Compressing objects:  41% (168/408)   Compressing objects:  42% (172/408)   Compressing objects:  43% (176/408)   Compressing objects:  44% (180/408)   Compressing objects:  45% (184/408)   Compressing objects:  46% (188/408)   Compressing objects:  47% (192/408)   Compressing objects:  48% (196/408)   Compressing objects:  49% (200/408)   Compressing objects:  50% (204/408)   Compressing objects:  51% (209/408)   Compressing objects:  52% (213/408)   Compressing objects:  53% (217/408)   Compressing objects:  54% (221/408)   Compressing objects:  55% (225/408)   Compressing objects:  56% (229/408)   Compressing objects:  57% (233/408)   Compressing objects:  58% (237/408)   Compressing objects:  59% (241/408)   Compressing objects:  60% (245/408)   Compressing objects:  61% (249/408)   Compressing objects:  62% (253/408)   Compressing objects:  63% (258/408)   Compressing objects:  64% (262/408)   Compressing objects:  65% (266/408)   Compressing objects:  66% (270/408)   Compressing objects:  67% (274/408)   Compressing objects:  68% (278/408)   Compressing objects:  69% (282/408)   Compressing objects:  70% (286/408)   Compressing objects:  71% (290/408)   Compressing objects:  72% (294/408)   Compressing objects:  73% (298/408)   Compressing objects:  74% (302/408)   Compressing objects:  75% (306/408)   Compressing objects:  76% (311/408)   Compressing objects:  77% (315/408)   Compressing objects:  78% (319/408)   Compressing objects:  79% (323/408)   Compressing objects:  80% (327/408)   Compressing objects:  81% (331/408)   Compressing objects:  82% (335/408)   Compressing objects:  83% (339/408)   Compressing objects:  84% (343/408)   Compressing objects:  85% (347/408)   Compressing objects:  86% (351/408)   Compressing objects:  87% (355/408)   Compressing objects:  88% (360/408)   Compressing objects:  89% (364/408)   Compressing objects:  90% (368/408)   Compressing objects:  91% (372/408)   Compressing objects:  92% (376/408)   Compressing objects:  93% (380/408)   Compressing objects:  94% (384/408)   Compressing objects:  95% (388/408)   Compressing objects:  96% (392/408)   Compressing objects:  97% (396/408)   Compressing objects:  98% (400/408)   Compressing objects:  99% (404/408)   Compressing objects: 100% (408/408)   Compressing objects: 100% (408/408), done.
+Writing objects:   0% (1/421)   Writing objects:   1% (5/421)   Writing objects:   2% (9/421)   Writing objects:   3% (13/421)   Writing objects:   4% (17/421)   Writing objects:   5% (22/421)   Writing objects:   6% (26/421)   Writing objects:   7% (30/421)   Writing objects:   8% (34/421)   Writing objects:   9% (38/421)   Writing objects:  10% (43/421)   Writing objects:  11% (48/421)   Writing objects:  12% (51/421)   Writing objects:  13% (55/421)   Writing objects:  14% (59/421)   Writing objects:  15% (64/421)   Writing objects:  16% (68/421)   Writing objects:  17% (73/421)   Writing objects:  18% (76/421)   Writing objects:  19% (80/421)   Writing objects:  20% (85/421)   Writing objects:  21% (89/421)   Writing objects:  22% (94/421)   Writing objects:  23% (97/421)   Writing objects:  24% (102/421)   Writing objects:  25% (106/421)   Writing objects:  26% (110/421)   Writing objects:  27% (114/421)   Writing objects:  28% (119/421)   Writing objects:  29% (123/421)   Writing objects:  30% (127/421)   Writing objects:  31% (131/421)   Writing objects:  32% (135/421)   Writing objects:  33% (140/421)   Writing objects:  34% (144/421)   Writing objects:  35% (148/421)   Writing objects:  36% (152/421)   Writing objects:  37% (156/421)   Writing objects:  38% (160/421)   Writing objects:  39% (165/421)   Writing objects:  40% (169/421)   Writing objects:  41% (173/421)   Writing objects:  42% (177/421)   Writing objects:  43% (182/421)   Writing objects:  44% (186/421)   Writing objects:  45% (190/421)   Writing objects:  46% (194/421)   Writing objects:  47% (198/421)   Writing objects:  48% (203/421)   Writing objects:  49% (207/421)   Writing objects:  50% (211/421)   Writing objects:  51% (215/421)   Writing objects:  52% (220/421)   Writing objects:  53% (224/421)   Writing objects:  54% (228/421)   Writing objects:  55% (232/421)   Writing objects:  56% (236/421)   Writing objects:  57% (240/421)   Writing objects:  58% (245/421)   Writing objects:  59% (249/421)   Writing objects:  60% (253/421)   Writing objects:  61% (257/421)   Writing objects:  62% (262/421)   Writing objects:  63% (266/421)   Writing objects:  64% (270/421)   Writing objects:  65% (274/421)   Writing objects:  66% (278/421)   Writing objects:  67% (283/421)   Writing objects:  68% (287/421)   Writing objects:  69% (291/421)   Writing objects:  70% (295/421)   Writing objects:  71% (299/421)   Writing objects:  72% (304/421)   Writing objects:  73% (308/421)   Writing objects:  74% (312/421)   Writing objects:  75% (316/421)   Writing objects:  76% (320/421)   Writing objects:  77% (325/421)   Writing objects:  78% (329/421)   Writing objects:  79% (333/421)   Writing objects:  80% (337/421)   Writing objects:  81% (342/421)   Writing objects:  82% (346/421)   Writing objects:  83% (350/421)   Writing objects:  84% (354/421)   Writing objects:  85% (358/421)   Writing objects:  86% (363/421)   Writing objects:  87% (367/421)   Writing objects:  88% (371/421)   Writing objects:  89% (375/421)   Writing objects:  90% (379/421)   Writing objects:  91% (384/421)   Writing objects:  92% (388/421)   Writing objects:  93% (392/421)   Writing objects:  94% (396/421)   Writing objects:  95% (400/421)   Writing objects:  96% (405/421)   Writing objects:  97% (409/421)   Writing objects:  98% (413/421)   Writing objects:  99% (417/421)   Writing objects: 100% (421/421)   Writing objects: 100% (421/421), 250.43 KiB | 1.16 MiB/s, done.
+Total 421 (delta 319), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/319)   [Kremote: Resolving deltas:   2% (7/319)   [Kremote: Resolving deltas:  21% (67/319)   [Kremote: Resolving deltas:  49% (158/319)   [Kremote: Resolving deltas:  78% (252/319)   [Kremote: Resolving deltas:  93% (298/319)   [Kremote: Resolving deltas:  95% (306/319)   [Kremote: Resolving deltas:  97% (311/319)   [Kremote: Resolving deltas:  98% (313/319)   [Kremote: Resolving deltas: 100% (319/319)   [Kremote: Resolving deltas: 100% (319/319), done.[K
+To https://github.com/yufree/metaRSS.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/blog/metaRSSyumiaodeMacBook-Pro:metaRSS yufree$ git push -u origin master [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin httpps://github.com/yufree/metaRSS.git[A[C[C[C[C[C[Ccommit -m 'plan to go'[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
