@@ -16,8 +16,8 @@ paginate = 9
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Archive"
+    url = "/archives/"
     weight = 2
 [[menu.main]]
     name = "Subscribe"
