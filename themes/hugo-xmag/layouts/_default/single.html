@@ -28,17 +28,14 @@
 {{ end }}
 
 <main>
-<p>Source: {{ .Params.source }}</p>
-<p>Link: <a href="{{ .LinkTitle  }}">{{ .Title }}</a></p>
-{{ with .Description }}
-      {{ $.Scratch.Set "summary" (markdownify .) }}
-    {{ else }}
-      {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-{{ end }}
-{{ $.Scratch.Get "summary" }}
 {{ .Content }}
+<script>
+var url = {{ .LinkTitle }};
+var strReg = "http|https";
+var re = new RegExp(strReg);
+setTimeout(function() { if(re.test(url)) {window.location.href = url} }, 10000);
+</script>
 </main>
-
 {{ partial "author.html" . }}
 {{ partial "info.html" . }}
 {{ partial "prev_next.html" . }}

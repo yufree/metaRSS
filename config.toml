@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://metarss.netlify.com/"
 languageCode = "en-us"
 title = "Daily Metabolomics Research"
 theme = "hugo-xmag"
@@ -27,7 +27,7 @@ paginate = 9
     description = "News/Blog aggregator website for Metabolomcis"
     summary_length = 300
     github_edit = "https://github.com/yufree/metaRSS/edit/master/content/"
-    footer = "&copy; [Miao YU](https://yufree.cn) 2018 | [Github](https://github.com/yufree) | [Twitter](https://twitter.com/yu_free)"
+    footer = "&copy; [Miao YU](https://yufree.cn) 2021 | [Github](https://github.com/yufree) | [Twitter](https://twitter.com/yu_free)"
 
 [params.text]
     back = "&larr; Back to Home"
